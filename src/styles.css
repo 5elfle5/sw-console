@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: black;
+}
+
+.form-control:focus {
+  outline: none !important;
+  outline-style: none;
+  box-shadow:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  border-color:transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
